@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="home">
-
   <ol type="i">
     {% for post in site.posts %}
       <li>
@@ -15,6 +13,3 @@ layout: default
     {% endfor %}
   </ol>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
