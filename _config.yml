@@ -8,8 +8,7 @@
 # Site settings
 title: joggink
 email: joggink@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  blogging from time to time
+description: blogging from time to time
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://joggink.com" # the base hostname & protocol for your site
 twitter_username: joggink
