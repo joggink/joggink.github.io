@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What is this responsive web you speak of?"
+excerpt: "We are exploring and learning new stuff for the web on a daily basis, but claiming responsive web is a couple of years old and is all about fluid grids and images using media queries? Naaaaah!"
 date:   2016-06-23 00:04:56
 permalink: /responsive-web/
 categories: web
