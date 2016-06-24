@@ -76,6 +76,8 @@ disqus: false
 <h4>3. Media queries</h4>
 <p>Allowing the page to use different CSS style rules based on characteristics of the device the site is being displayed on, most commonly the width of the browser. These were actually proposed in 1994 by Håkon Wium Lie but didn't make in in the CSS1 spec. Since CSS2 we have media type support which makes sense: displaying content on a computer screen, projecting, braille, speech, print, etc...  By adding media features like device width, height, orientation, aspect ratio, resolution and so on we can create very powerful stylesheets but we're still not there. I'd love to have a media query to know my visitors connection speed and some element queries.</p>
 
+<p><br /></p>
+
 <p>As much as I'm bashing on the whole responsive web design, I'm also loving it. My only fear is that the web development today is no better than the space-background / animted gif pages we created 20 years ago. We are still positioning elements on a grid, thinking we are creating beautiful <em>experiences</em> but I feel we're missing the true point of the web. To put things in context I want to compare the evolution of the web with the history of film. It all began in the 1890s, when motion picture cameras were invented but it took them 37 years until the first movie with sound was released. Our medium is still young and immature, let's try to raise our web and give it a prosperous future!</p>
 
 <p><strong>We are exploring and learning new stuff for the web on a daily basis, but claiming responsive web is a couple of years old and is all about fluid grids and images using media queries? Naaaaah!</strong></p>
