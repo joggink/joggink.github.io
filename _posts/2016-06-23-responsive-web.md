@@ -48,7 +48,7 @@ disqus: false
 </figure>
 
 
-<p>And then some Norwegian guy (Håkon Wium Lie) came around and developed CSS, seperating content and layout. Mind was blown! The community started to adapt and realised that using tables for layout was semantically not correct. A new era began: <kbd>&lt;div&gt;</kbd> to the rescue!</p> 
+<p>And then some Norwegian guy (Håkon Wium Lie) came around and developed CSS, separating content and layout. Mind was blown! The community started to adapt and realised that using tables for layout was semantically not correct. A new era began: <kbd>&lt;div&gt;</kbd> to the rescue!</p> 
 <figure>
 	<img src="/a/responsive-web/divitis.png" alt="Classic example of divitis: using divs for everything" />
 	<figcaption><small>&mdash; Source: <a href="http://adam.kahtava.com/journal/2009/07/15/cronic-divitis-and-classitis-what-is-it/">http://adam.kahtava.com/journal/2009/07/15/cronic-divitis-and-classitis-what-is-it/</a></small></figcaption>
