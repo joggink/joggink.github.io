@@ -14,6 +14,6 @@ So today I went to a <a href="http://fronteers.be">fronteers</a> meetup and one 
 
 Afterwards, some friends encouraged me to talk at one of the next fronteers meetups about why we should build the web the right way. I've done it before but had the feeling I couldn't convince enough people because boring theoretical mumbo jumbo is meaningless! 
 
-<mark>Therefore, a warm call: If you have an idea of sites / applications that can not be built without SPA technology <sup><a href="#footnote1">1</a></sup>: <strong><a href="https://twitter.com/intent/tweet?screen_name=joggink&amp;button_hashtag=wtspa">Let me know and send me a tweet and use the hashtag 'wtspa'!</a></strong> </mark>
+<mark>Therefore, a warm call: If you have think of sites / applications that can not be built without SPA technology <sup><a href="#footnote1">1</a></sup>: <strong><a href="https://twitter.com/intent/tweet?screen_name=joggink&amp;button_hashtag=wtspa">Let me know and send me a tweet and use the hashtag 'wtspa'!</a></strong> </mark>
 
 <small><sup><a name="#footnote1">1</a></sup> Stuff like <em>"making an application offline available"</em> are enhancements, so please: send me real life examples!</small>
