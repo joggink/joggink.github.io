@@ -1,15 +1,46 @@
----
-layout: default
----
 
-  <ol type="I" reversed>
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		  (<small class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</small>)
-        </h2>
-      </li>
-    {% endfor %}
-  </ol>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>joggink[dot]com</title>
+<meta name="description" content="blogging from time to time">
+<meta name="keywords" content="jochen vandendriessche, joggink, freelance frontend developer, javascript consultant, frontend, javascript">
+<meta property="og:site_name" content="joggink">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://joggink.com/a/joggink-rambo.png">
+<meta property="og:url" content="http://joggink.be/">
+<meta property="og:description" content="Used to blog from time to time">
+<meta property="og:title" content="joggink[dot]com">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:creator" content="@joggink">
+<meta property="twitter:site_name" content="Joggink">
+<meta property="twitter:type" content="website">
+<meta property="twitter:image" content="http://joggink.com/a/joggink-rambo.png">
+<meta property="twitter:url" content="http://joggink.com">
+<meta property="twitter:description" content="Used to blog from time to time">
+<meta property="twitter:title" content="joggink[dot]com">
+<link rel="canonical" href="https://joggink.com/">
+<style>
+	/* some say this is critical css */
+	html {
+		background: #000 url('a/woft.jpg') no-repeat center top;
+		background-size: 50vw;
+	}
+	</style>
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-8684278-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
