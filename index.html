@@ -1,15 +1,3 @@
 ---
-layout: default
+layout: tmp-default
 ---
-
-  <ol type="I" reversed>
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		  (<small class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</small>)
-        </h2>
-      </li>
-    {% endfor %}
-  </ol>
-
