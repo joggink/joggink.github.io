@@ -4,3 +4,7 @@ permalink: /cars
 ---
 
 <h2>Cars</h2>
+
+{% for car in site.cars%}
+    {{car.brand}} {{car.model}} ({{car.year}}) <br />
+{% endfor %}

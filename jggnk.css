@@ -12,6 +12,25 @@ img {
     max-width: 100%;
 }
 
+main a {
+    color: blue;
+    text-decoration-color: rgba(0,0,255,.4);
+    -webkit-text-underline-position: under;
+    -ms-text-underline-position: below;
+    text-underline-position: under;
+}
+
+main a:visited {
+    color: purple;
+    text-decoration-color: rgba(128,0,128,.4)
+}
+
+main a:hover,
+main a:focus {
+    color: red;
+    text-decoration-color: rgba(255,0,0,.4);
+}
+
 /* header */
 header[role="banner"] {
     display: flex;
@@ -30,43 +49,51 @@ header[role="banner"] {
     transition: .2s ease-out text-decoration-color;
 }
 
-.site-title:hover {
+.site-title:visited {
+    color: #000;
+    text-decoration-color: #ccc;
+}
+
+.site-title:hover,
+.site-title:focus {
     text-decoration-color: #f00;
 }
 
-.avatar {
+.blendr {
+    margin: 0 1em 0 0;
+    padding: 0;
     border-radius: 100%;
     border: 2px solid #000;
-    margin-right: 1em;
+    position: relative;
+    overflow: hidden;
 }
 
-@-webkit-keyframes spin1 {
-    0% { -webkit-transform: rotate(0deg);}
-    100% { -webkit-transform: rotate(360deg);}
+.avatar {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
-@-moz-keyframes spin1 {
-    0% { -moz-transform: rotate(0deg);}
-    100% { -moz-transform: rotate(360deg);}
+
+@-webkit-keyframes turnink {
+    0% { 
+        -webkit-transform: rotate(0deg);
+    }
+    100% { 
+        -webkit-transform: rotate(360deg);
+    }
 }
-@-o-keyframes spin1 {
-    0% { -o-transform: rotate(0deg);}
-    100% { -o-transform: rotate(360deg);}
-}
-@-ms-keyframes spin1 {
-    0% { -ms-transform: rotate(0deg);}
-    100% { -ms-transform: rotate(360deg);}
-}
-@-keyframes spin1 {
-    0% { transform: rotate(0deg);}
-    100% { transform: rotate(360deg);}
+@-keyframes turnink {
+    0% { 
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 } 
 
-.site-title:hover .avatar {
-    -webkit-animation: spin1 .5s infinite linear;
-    -moz-animation: spin1 .5s infinite linear;
-    -o-animation: spin1 .5s infinite linear;
-    -ms-animation: spin1 .5s infinite linear;
-    animation: spin1 .5s infinite linear;
+.site-title:hover .blendr,
+.site-title:focus .blendr {
+    animation: turnink .5s infinite linear;
 }
 
 .social {

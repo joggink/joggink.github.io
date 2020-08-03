@@ -10,6 +10,11 @@ github_username:  joggink
 # Build settings
 markdown: kramdown
 
+collections:
+  cars:
+    output: true
+    sort_by: bought
+
 # gems
 gems:
   - jekyll-redirect-from
