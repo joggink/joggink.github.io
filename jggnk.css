@@ -104,8 +104,9 @@ header[role="banner"] {
     flex-direction: row;
 }
 
-.social li {
-    margin: 0 .5em;
+.social a {
+    display: block;
+    padding: .5em;
 }
 
 .social svg {
